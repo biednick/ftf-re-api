@@ -1,0 +1,52 @@
+[
+	{
+		"model":"myapp.timeframe_types",
+		"pk":1,
+		"fields"{
+			"name" = "Last Month",
+			"dim_dates_reference" = "NA",
+			"current_start_date" = "01/01/2021",
+			"current_start_date"= "01/31/2021"
+		}
+	},
+	{
+		"model":"myapp.timeframe_types",
+		"pk":2,
+		"fields"{
+			"name" = "Rolling 12 Months",
+			"dim_dates_reference" = "NA",
+			"current_start_date" = "02/01/2020",
+			"current_start_date"= "01/31/2021"
+		}
+	},
+	{
+		"model":"myapp.timeframe_types",
+		"pk":3,
+		"fields"{
+			"name" = "CY To Date",
+			"dim_dates_reference" = "CalendarYear",
+			"current_start_date" = "01/01/2020",
+			"current_start_date"= "01/31/2021"
+		}
+	},
+	{
+		"model":"myapp.timeframe_types",
+		"pk":4,
+		"fields"{
+			"name" = "Fiscal year to date",
+			"dim_dates_reference" = "JulFiscalYear",
+			"current_start_date" = "07/01/2020",
+			"current_start_date"= "01/31/2021"
+		}
+	},
+	{
+		"model":"myapp.timeframe_types",
+		"pk":5,
+		"fields"{
+			"name" = "Custom Date Range",
+			"dim_dates_reference" = "NA",
+			"current_start_date" = "NA",
+			"current_start_date"= "NA"
+		}
+	}
+]

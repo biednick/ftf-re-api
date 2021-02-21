@@ -1,0 +1,146 @@
+[
+	{
+		"model":"myapp.report_scopes",
+		"pk":1,
+		"fields"{
+			"type" = "Hierarchy",
+			"name" = "Event",
+			"field_reference" = "event_id"
+		}
+	},
+	{
+		"model":"myapp.report_scopes",
+		"pk":2,
+		"fields"{
+			"type" = "Hierarchy",
+			"name" = "Location",
+			"field_reference" = "loc_id"
+		}
+	},	
+	{
+		"model":"myapp.report_scopes",
+		"pk":3,
+		"fields"{
+			"type" = "Hierarchy",
+			"name" = "Organization",
+			"field_reference" = "org_id"
+		}
+	},
+	{
+		"model":"myapp.report_scopes",
+		"pk":4,
+		"fields"{
+			"type" = "Hierarchy",
+			"name" = "County",
+			"field_reference" = "cnty_id"
+		}
+	},
+	{
+		"model":"myapp.report_scopes",
+		"pk":5,
+		"fields"{
+			"type" = "Hierarchy",
+			"name" = "Foodbank",
+			"field_reference" = "fb_id"
+		}
+	},
+	{
+		"model":"myapp.report_scopes",
+		"pk":6,
+		"fields"{
+			"type" = "Hierarchy",
+			"name" = "State",
+			"field_reference" = "state_id"
+		}
+	},
+	{
+		"model":"myapp.report_scopes",
+		"pk":7,
+		"fields"{
+			"type" = "Hierarchy",
+			"name" = "Multi-Event",
+			"field_reference" = "ra_id"
+		}
+	},
+	{
+		"model":"myapp.report_scopes",
+		"pk":8,
+		"fields"{
+			"type" = "Hierarchy",
+			"name" = "Multi-Location",
+			"field_reference" = "cluster_id"
+		}
+	},
+	{
+		"model":"myapp.report_scopes",
+		"pk":9,
+		"fields"{
+			"type" = "Geography",
+			"name" = "State",
+			"field_reference" = "fips_state"
+		}
+	},
+	{
+		"model":"myapp.report_scopes",
+		"pk":10,
+		"fields"{
+			"type" = "Geography",
+			"name" = "County",
+			"field_reference" = "fips_cnty"
+		}
+	},
+	{
+		"model":"myapp.report_scopes",
+		"pk":11,
+		"fields"{
+			"type" = "Geography",
+			"name" = "Tract",
+			"field_reference" = "fips_tract"
+		}
+	},
+	{
+		"model":"myapp.report_scopes",
+		"pk":12,
+		"fields"{
+			"type" = "Geography",
+			"name" = "Zip Code Area",
+			"field_reference" = "fips_zcta"
+		}
+	},
+	{
+		"model":"myapp.report_scopes",
+		"pk":13,
+		"fields"{
+			"type" = "Geography",
+			"name" = "State Congressional District",
+			"field_reference" = "fips_sldl"
+		}
+	},
+	{
+		"model":"myapp.report_scopes",
+		"pk":14,
+		"fields"{
+			"type" = "Geography",
+			"name" = "State Senate",
+			"field_reference" = "fips_sldu"
+		}
+	},
+	{
+		"model":"myapp.report_scopes",
+		"pk":15,
+		"fields"{
+			"type" = "Geography",
+			"name" = "Federal Congressional District",
+			"field_reference" = "fips_cd"
+		}
+	},
+	{
+		"model":"myapp.report_scopes",
+		"pk":16,
+		"fields"{
+			"type" = "Geography",
+			"name" = "School District",
+			"field_reference" = "fips_unsd"
+		}
+	}
+]

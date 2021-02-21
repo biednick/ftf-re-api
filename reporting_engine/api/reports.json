@@ -1,0 +1,32 @@
+[
+	{
+		"model":"myapp.reports",
+		"pk":1,
+		"fields"{
+			"report_schedule_id" = 1,
+			"date_custom_start" = "12/01/2020",
+			"date_custom_end" = "12/31/2020",
+			"date_completed" = "1/5/2021"
+		}
+	},
+	{
+		"model":"myapp.reports",
+		"pk":2,
+		"fields"{
+			"report_schedule_id" = 1,
+			"date_custom_start" = "01/01/2021",
+			"date_custom_end" = "1/31/2021",
+			"date_completed" = "2/5/2021"
+		}
+	},
+	{
+		"model":"myapp.reports",
+		"pk":3,
+		"fields"{
+			"report_schedule_id" = 2,
+			"date_custom_start" = "03/15/2020",
+			"date_custom_end" = "12/31/2020",
+			"date_completed" = "2/19/2021"
+		}
+	}
+]

@@ -1,0 +1,36 @@
+[
+	{
+		"model":"myapp.report_schedules",
+		"pk":1,
+		"fields"{
+			"run_type_id" = "recurring", 
+			"timeframe_type_id" = "last month",
+			"report_scope_id" = "event",
+			"report_scope_value" = "346",
+			"control_type_id" = 1,
+			"reporting_dictionary_id" = 1,
+			"control_age_group_id" = 8,
+			"date_scheduled" = "03/05/2021"
+			"addin_state_report" = 2, 
+			"addin_foodbank_report" 3
+		}
+	},
+	{
+		"model":"myapp.report_schedules",
+		"pk":1,
+		"fields"{
+			"run_type_id" = "one-time", 
+			"timeframe_type_id" = "custom",
+			"report_scope_id" = "location",
+			"report_scope_value" = "9459",
+			"control_type_id" = 1,
+			"reporting_dictionary_id" = 1,
+			"control_age_group_id" = 8,
+			"date_scheduled" = "2/19/2021"
+			"date_custom_start" = "03/15/2020"
+			"date_custom_end" = "12/31/2020"
+			"addin_state_report" = 2, 
+			"addin_foodbank_report" 3
+		}
+	}
+]
